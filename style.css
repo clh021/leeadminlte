@@ -1,0 +1,321 @@
+/*
+	Theme Name: Lianghong Admin LTE Wordpress Theme
+	Description: Made by <a href="http://www.erhankilic.org">Erhan Kılıç</a> for wordpress.
+	Theme URI: http://www.erhankilic.org
+	Version: 1.0
+	Author: Erhan Kılıç,lee,Lianghong Chen
+	Author URI: http://www.erhankilic.org
+	Tags:  wordpress tema, wordpress theme, blog teması, blog theme, erhan kılıç
+*/
+.content {
+    max-width: 1170px
+}
+
+/***** Heder *****/
+.fixed .content-wrapper {
+    padding-top: 50px;
+}
+.content-header {
+    padding: 15px;
+}
+
+/***** Logo *****/
+.logo-lg {
+    margin: 0;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+/*****  Right Bar  *****/
+#right-bar .tab-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#right-bar .tab-content ul > li > a {
+    display: block;
+    padding: 3px 15px;
+}
+
+#right-bar .tab-content ul > li > a:before,
+#right-bar .tab-content ul > li > a:after {
+    content: " ";
+    display: table;
+}
+
+#right-bar .tab-content ul > li > a:after {
+    clear: both;
+}
+
+#right-bar .tab-content ul > li > a > .control-sidebar-subheading {
+    margin-top: 0;
+}
+
+#right-bar .tab-content ul .menu-icon {
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+}
+
+#right-bar .tab-content ul .menu-info {
+    margin-left: 45px;
+    margin-top: 3px;
+}
+
+#right-bar .tab-content ul .menu-info > .control-sidebar-subheading {
+    margin: 0;
+}
+
+#right-bar .tab-content ul .menu-info > p {
+    margin: 0;
+    font-size: 11px;
+}
+
+#right-bar .tab-content ul .progress {
+    margin: 0;
+}
+
+/***** Loader *****/
+#inifiniteLoader {
+    text-align: center;
+    display: none;
+}
+
+/**** Posts *****/
+#post .box.box-widget>.box-header>.user-block img {
+    width: auto;
+    height: auto;
+    float: none;
+}
+#post .box.box-widget>.box-header>.user-block>.description {
+    margin-left: 0;
+}
+
+#post .box-body.box-profile>img {
+    width: 100%;
+}
+#post .box-body.box-profile>a {
+    display: block;
+    margin-top: -50px;
+}
+#post .box-body.box-profile>a>img {
+    border: 5px solid #fff;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+    padding: 0;
+}
+
+#post .post-content .wp-caption {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 25px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#post .post-content .wp-caption img {
+    margin: 0 0 10px 0;
+}
+
+#post .post-content img{
+    max-width: 95%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+
+#post .post-content .alignleft{
+    float: left;
+}
+#post .post-content .alignright{
+    float: right;
+}
+#post .post-content .aligncenter{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+#post .side-bar ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+#post ol.commentlist {
+    padding-left: 0;
+    list-style-type: none;
+}
+#post ol.commentlist ul {
+    list-style-type: none;
+}
+#post ol.commentlist li {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #444;
+    padding: 5px;
+    position: relative;
+}
+#post ol.commentlist .comment-author,
+#post ol.commentlist .comment-meta {
+    display: inline-block;
+}
+#post ol.commentlist .comment-meta {
+    float: right;
+}
+#post .related-articles {
+    margin-top: 15px;
+}
+#post .related-articles div {
+    height: 225px;
+    overflow: hidden;
+}
+#post .related-articles div .caption {
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+#post .related-articles div .caption img {
+    height: 150px;
+    margin: 0 auto;
+}
+
+.header-mobile-menu {
+    display: none;
+}
+
+.content .box {
+    margin-bottom: 15px;
+}
+
+/***** Feed & Accordion *****/
+#feed,
+#accordion{
+    height: 288px;
+    overflow: auto;
+}
+
+#feed .gha-header {
+    width: 99.8% !important;
+}
+
+#feed .gha-footer {
+    display: none;
+}
+
+/***** Carousel *****/
+#carousel {
+    margin-bottom: 15px;
+}
+
+#carousel img{
+    width: 100%;
+    height: 350px;
+}
+
+.carousel-caption {
+    background-color: rgba(255,255,255,0.7);
+    padding:10px;
+    bottom:0;
+    right:0;
+    left:0;
+    width:100% ;
+}
+.carousel-indicators {
+    display:none;
+}
+.carousel-caption a{
+    color:#1c4365;
+    text-shadow: none;
+    font-weight:700;
+}
+
+/***** Ads *****/
+.ad {
+    text-align: center;
+    padding: 10px;
+}
+
+/***** Posts *****/
+#posts .box.box-widget>.box-header>.user-block>.username,
+#posts .box.box-widget>.box-header>.user-block>.description {
+    margin-left: 0;
+}
+#posts .box.box-widget>.box-header>.user-block>.username {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#posts .box.box-widget>.box-body {
+    height: 250px;
+    overflow: hidden;
+    border-bottom: 10px solid #fff;
+}
+#posts .box.box-widget>.box-body>.caption {
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+#posts .box.box-widget>.box-body>a {
+    color: #1e282c;
+    text-decoration: none;
+}
+
+/***** Widgets *****/
+
+.side-bar-widget ul>li,
+.right-bar-widget ul>li {
+    font-weight: 600;
+}
+
+.side-bar-widget>.box-body>ul>li,
+.right-bar-widget ul>li{
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.side-bar-widget>.box-body>ul>li:hover,
+.right-bar-widget ul>li:hover{
+    padding-left: 15px;
+}
+
+    /***** General *****/
+
+a {
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: #001F3F;
+}
+
+.menu-menu-container {
+    margin-bottom: 25px;
+}
+
+pre {
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+    .navbar-custom-menu .navbar-nav {
+        display: none;
+    }
+    .header-mobile-menu {
+        display: block !important;
+    }
+    .gallery-item {
+        width: 100%!important;
+    }
+    #carousel img{
+        height: 300px;
+    }
+}
