@@ -114,7 +114,15 @@
             </form>
             <!-- /.search form -->
             <!-- sidebar menu: : style can be found in sidebar.less -->
-            <?php wp_nav_menu(array('theme_location' => 'sidebar', 'menu_class' => 'sidebar-menu', 'walker' => new Sidebar_Nav_Menu())); ?>
+            <?php
+            if ( is_user_logged_in() && (get_option('sidebar') != '')) {
+                wp_nav_menu(array('theme_location' => 'sidebar', 'menu_class' => 'sidebar-menu', 'walker' => new Sidebar_Nav_Menu()));
+            } else {
+                echo '<div class="menu-lianghong-default-container">';
+                include('lianghong/sidebar_default.php');
+                echo '</div>';
+            }
+            ?>
             <div class="ad">
                 <?php if (get_option('ad_menu') != '') {
                     echo stripslashes(get_option('ad_menu'));

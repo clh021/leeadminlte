@@ -1,4 +1,5 @@
 <?php
+include('lianghong.php');
 add_theme_support( 'post-thumbnails' );
 
 /* Adding Menu */
